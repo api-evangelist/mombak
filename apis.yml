@@ -1,8 +1,30 @@
 aid: mombak
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mombak.png
 name: Mombak
-description: Mombak is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Mombak is a Brazilian nature-based carbon removal company that acquires
+  degraded and deforested land in the Amazon and restores it through
+  large-scale, biodiverse reforestation with native species, generating
+  high-integrity, high-quality carbon removal credits for corporate buyers.
+  Founded by former Nubank executives and backed by investors including Union
+  Square Ventures, the company combines science, technology, forestry, and
+  carbon-market expertise to remove carbon at scale while restoring native
+  ecosystems. Mombak operates as a corporate and carbon-markets business and
+  publishes a public marketing and news presence; it does not currently expose a
+  public developer API, SDK, or API documentation. This profile was surfaced as
+  a portfolio company of Union Square Ventures and enriched by the API
+  Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/mombak/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Carbon Removal
+- Climate
+- Reforestation
+- Carbon Credits
+- Sustainability
+- Nature-Based Solutions
+- Brazil
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://mombak.com
+- type: Blog
+  url: https://mombak.com/news/
+- type: Support
+  url: https://mombak.com/contact/
+- type: TermsOfService
+  url: https://mombak.com/legal-and-regulatory-information/
+- type: DomainSecurity
+  url: security/mombak-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
